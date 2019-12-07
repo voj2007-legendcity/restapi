@@ -1,0 +1,13 @@
+{
+	"ERROR_500": "Ошибка! 500",
+	"INTERNAL_SERVER_ERROR": "Внутренняя ошибка сервера",
+	"TASK_ID_IS_INVALID": "ID не может быть пустым",
+	"TASK_NAME_IS_INCORECT": "В название {{name}} содержатся ошибки",
+	"TASK_PRIORITY_IS_INCORECT": "Поле приоретет некорректно",
+	"TASK_DOES_NOT_EXISTS": "Задача с таким ID не существует",
+	"TASK_SUCCESS_CREATED": "Задача '{{name}}' была успешно создана",
+	"TASK_SUCCESS_UPDATED": "Задача '{{name}}' была успешно обновлена",
+	"TASK_SUCCESS_DELETED": "Задача была успешно удалена",
+	"TASK_SUCCESS_READED": "Подробное описание задачи '{{name}}'",
+	"TASK_SUCCESS_FETCHED": "Самая приоритетная задача"
+}

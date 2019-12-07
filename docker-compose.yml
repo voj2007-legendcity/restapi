@@ -1,0 +1,26 @@
+version: '2'
+services:
+  web:
+    build: .
+    command: npm run dev
+    volumes:
+      - .:/app/
+      - /app/node_modules
+    ports:
+      - "7000:7000"
+    depends_on:
+      - mysql
+    environment:
+      SEQ_DATABASE: test_app
+      SEQ_USER: root
+      SEQ_PASSWORD: GFHJKMvoj2008
+  
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: GFHJKMvoj2008
+      MYSQL_DATABASE: test_app
+      MYSQL_USER: root
+      
+volumes:
+  test_app:
